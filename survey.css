@@ -1,0 +1,300 @@
+body{
+	background-image: url(ug.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 50em;
+}
+
+main{
+	background-color:rgba(255, 99, 71, 0.2);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+}
+#survey-form{
+	margin: 0px auto;
+	padding: 8em 20em 0 20em;
+}
+#formheader{
+	padding: 1em 0 0 4em;
+}
+
+h5{
+	font-size: 22px;
+	padding: 0 0 0 4em;
+	color: red;
+
+}
+
+
+fieldset{
+	background-color:rgba(255, 99, 71, 0.4);
+	border:1px solid rgba(255, 99, 71, 0.2);
+	border-radius: 5px;
+}
+div{
+	padding: 2em 0 0 5em ;
+}
+#innerdiv{
+	padding: 0;
+}
+
+p{
+	text-transform: capitalize;
+}
+
+
+input{
+	padding: 1em 20em 1em 1em ;
+	border: 1px solid rgba(255, 99, 71, 0.2);
+	border-radius: 5px;
+	font-size: inherit;
+
+}
+input [type="email"]{
+	margin:3em;
+	width: 100%;
+	display: block;
+	}
+
+	select{
+		border: 1px solid rgba(255, 99, 71, 0.2);
+		padding: 1em 5em 1em 0 ;
+		font-size: inherit;
+		border-radius: 5px;
+	}
+
+	textarea{
+		border: 1px solid rgba(255, 99, 71, 0.2);
+		border-radius:5px;
+		padding: 3em 25em 3em 3em;
+	}
+
+	input[type="submit"]{
+		text-align: center;
+		padding: 1em 8em 1em 8em; 
+		font-size:20px;
+		background-color: rgba(255, 99, 71, 0.7);
+
+	}
+
+	.submitdiv{
+		padding: 2em 0 2em 9em ;
+	}
+
+	input[type="radio"]:checked + label{
+		font-weight: bold;
+		font-size: 18px;
+	}
+	input[type="submit"]:focus{
+		text-align: center;
+		padding: 1em 8em 1em 8em; 
+		font-size:20px;
+		background-color: white;
+		color:black;
+	}
+/* screnn with a max-width:600px  and min-width: 300px*/
+	@media screen and (max-width:600px ) and (min-width: 300px){
+		#survey-form{
+	margin: 0px auto;
+	padding:20px 10px 0 10px;
+}
+
+h5{
+	font-size: 22px;
+	padding: 0 4em 0 4em;
+
+}
+
+input{
+	padding: 1em 5em 1em 1em ;
+	border: 1px solid rgba(255, 99, 71, 0.2);
+	border-radius: 5px;
+	font-size: inherit;
+}
+div{
+	padding: 2em 0 0 1em ;
+}
+
+#innerdiv{
+	padding: 0 0 0 3em;
+}
+
+#formheader{
+	padding: 1em 0 0 0;
+}
+textarea{
+	padding: 3em 10em 3em 1em;
+}
+
+input[type="submit"]{
+		text-align: center;
+		padding: 1em 8em 1em 8em; 
+		font-size:20px;
+		background-color: rgba(255, 99, 71, 0.7);}
+
+		.submitdiv{
+			padding: 2em 0 2em 1em ;
+		}
+
+
+	}
+
+	/*screen with a max-width:696px and min-width:601px*/
+	@media screen and (max-width:698px ) and (min-width:601px){
+				#survey-form{
+	margin: 0px auto;
+	padding:20px 10px 0 10px;
+}
+
+h5{
+	font-size: 22px;
+	padding: 0 3em 1em 5em;
+}
+textarea{
+	padding: 3em 10em 3em 1em;
+}
+input{
+	padding: 1em 10em 1em 1em ;
+	border: 1px solid rgba(255, 99, 71, 0.2);
+	border-radius: 5px;
+	font-size: inherit;
+	}
+	.submitdiv{
+			padding: 2em 0 2em 5em ;
+		}
+		#formheader{
+	padding: 1em 0 0 2em;
+}
+
+
+	}
+
+	/*screen with a max-width:800px and min-width:699px*/
+	@media screen and (max-width:800px ) and (min-width:699px){
+		#survey-form{
+	margin: 0px auto;
+	padding:20px 10px 0 10px;
+}
+
+h5{
+	font-size: 22px;
+	padding: 0 3em 1em 5em;
+}
+textarea{
+	padding: 3em 10em 3em 1em;
+}
+input{
+	padding: 1em 12em 1em 1em ;
+	border: 1px solid rgba(255, 99, 71, 0.2);
+	border-radius: 5px;
+	font-size: inherit;
+	}
+	.submitdiv{
+			padding: 2em 0 2em 8em ;
+		}
+		#formheader{
+	padding: 1em 0 0 5em;
+}
+	}
+
+	/*screen with a max-width:900px and min-width:800px*/
+	@media screen and (max-width:900px ) and (min-width:801px){
+		#survey-form{
+	margin: 0px auto;
+	padding:20px 100px 0 100px;
+}
+
+h5{
+	font-size: 22px;
+	padding: 0 1em 1em 3em;
+}
+textarea{
+	padding: 3em 15em 3em 1em;
+}
+input{
+	padding: 1em 12em 1em 1em ;
+	border: 1px solid rgba(255, 99, 71, 0.2);
+	border-radius: 5px;
+	font-size: inherit;
+	}
+	.submitdiv{
+			padding: 2em 0 2em 8em ;
+		}
+		#formheader{
+	padding: 1em 0 0 4em;
+}
+div{
+	padding: 2em 0 0 5em;
+}
+}
+
+/*screen with a max-width:1000px and min-width:901px*/
+	@media screen and (max-width:1000px ) and (min-width:901px){
+		#survey-form{
+	margin: 0px auto;
+	padding:5em 10em 0 10em
+}
+
+h5{
+	font-size: 22px;
+	padding: 0 2em 1em 2em;
+	color: blue;
+}
+textarea{
+	padding: 3em 15em 3em 1em;
+}
+input{
+	padding: 1em 12em 1em 1em ;
+	border: 1px solid rgba(255, 99, 71, 0.2);
+	border-radius: 5px;
+	font-size: inherit;
+	}
+	.submitdiv{
+			padding: 2em 0 2em 5em ;
+		}
+		#formheader{
+	padding: 1em 0 0 3em;
+}
+div{
+	padding: 0 3em 1em 3em;;
+}
+}
+
+
+/*screen with a max-width:1200px and min-width:1001px*/
+	@media screen and (max-width:1200px ) and (min-width:1001px){
+		#survey-form{
+	margin: 0px auto;
+	padding:5em 10em 0 10em
+}
+
+h5{
+	font-size: 22px;
+	padding: 0 2em 1em 4em;
+	color: grey;
+}
+textarea{
+	padding: 3em 15em 3em 1em;
+}
+input{
+	padding: 1em 12em 1em 1em ;
+	border: 1px solid rgba(255, 99, 71, 0.2);
+	border-radius: 5px;
+	font-size: inherit;
+	}
+	.submitdiv{
+			padding: 2em 0 2em 5em ;
+		}
+		#formheader{
+	padding: 1em 0 0 5em;
+}
+div{
+	padding: 0 3em 1em 3em;;
+}
+}
+
+
+	

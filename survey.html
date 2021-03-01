@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-gh">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="html,css">
+	<meta name="author" content="Obeng James">
+	<title>ug survey form.</title>
+	<link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+<body>
+	<main>
+		<form id="survey-form">
+			<h1 id="formheader">University of Ghana survey form.</h1>
+			<h5><em>Thank you for taking the time, we really appreciate. Be Safe.</em></h5>
+			<fieldset>
+				<div id="innerdiv">
+				<div>
+					<p><strong>name</strong></p>
+			<input type="text" name="name"  placeholder="enter your name " required>
+		</div>
+		<div>
+			<p><strong>student ID</strong></p>
+			<input type="tele" name="student id" placeholder="student id" required>
+		</div>
+			<div>
+			<p><strong>student email</strong></p>
+			<input type="email" name="email"  placeholder="enter your email" required>
+		</div>
+		<div>
+		<p><strong>student level</strong></p>
+		<select name="student level">
+			<option value="100">level 100</option>
+			<option value="200">level 200</option>
+			<option value="300">level 300</option>
+			<option value="400">level 400</option>
+		</select>
+	</div>
+	    </div>
+	<div>
+		<p style="text-transform: none; font-size: 20px;"><strong>Do you want us to continue having lectures online.</strong></p>
+		<input type="radio" name="continue having lectures online." value="yes" id="yes"><label for="yes"> Yes</label>
+	<input type="radio" name="continue having lectures online." value="no" id="no"><label for="no">No</label>
+	</div>
+
+	<div>
+		<p style="text-transform: none; font-size: 20px;"><strong>what would you like to see us work on or improve?</strong></p>
+		<input type="checkbox" name="what would you like to see us work on or improve?" id="Divide classes"><label for="Divide classes">Divide classes.</label>
+		<div style="padding: 0 0 0 0;">
+			<input type="checkbox" name="what would you like to see us work on or improve?" id="Increase Class hours"><label for="Increase Class hours">Increase Class hours</label>
+		</div>
+		<div style="padding: 0 0 0 0;">
+			<input type="checkbox" name="what would you like to see us work on or improve?" id="Online presentations"><label for="Online presentations">Online presentations</label>
+		</div>
+		<div style="padding: 0 0 0 0 ;">
+			<input type="checkbox" name="what would you like to see us work on or improve?" id="study groups"><label for="study groups">Study groups</label>
+		</div>
+		<div style="padding: 0 0 0 0;">
+			<input type="checkbox" name="what would you like to see us work on or improve?" id="other apps"><label for="other apps">Other apps instead of Zoom.</label>
+		</div>
+	</div>
+
+
+	<div>
+		<p style="text-transform: none;font-size: 20px;"><strong>Any comment or suggestions?</strong></p>
+		<textarea></textarea>
+	</div>
+
+
+	<div>
+		<p style="text-transform: none; font-size: 20px;"><strong> would you to like recommend Legon to a friend.</strong></p>
+		<input type="radio" name="recommend Legon to a friend." value="yes" id="yes"><label for="yes"> Yes</label>
+		<input type="radio" name="recommend Legon to a friend." value="No" id="no"><label for="no"> No</label>
+		<input type="radio" name="recommend Legon to a friend." value="maybe" id="maybe"><label for="Maybe"> Maybe</label>
+	</div>
+<div class="submitdiv">
+	<input type="submit" name="submit">
+	</div>
+		
+		
+		</form>
+	</main>
+
+</body>
+</html>
